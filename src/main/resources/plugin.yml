@@ -1,0 +1,43 @@
+name: Vaulted
+version: 1.0.0
+main: com.frostgleeok.vaulted.Vaulted
+api-version: 1.21
+authors: [FrostGleeok]
+description: A lightweight, secure PlayerVaults plugin for Paper
+website: https://github.com/FrostGleeok/Vaulted
+
+commands:
+  pv:
+    description: Open player vaults menu or specific vault
+    usage: /pv [number]
+    aliases: [vault, vaults]
+  viewvault:
+    description: View another player's vault (admin)
+    usage: /viewvault <player> <number>
+    permission: playervaults.admin.view
+
+permissions:
+  playervaults.vault.*:
+    description: Access to all vaults
+    default: false
+  playervaults.vault.1:
+    description: Access to vault 1
+    default: true
+  playervaults.vault.2:
+    description: Access to vault 2
+    default: true
+  playervaults.vault.3:
+    description: Access to vault 3
+    default: true
+  playervaults.vault.4:
+    description: Access to vault 4
+    default: true
+  playervaults.vault.5:
+    description: Access to vault 5
+    default: true
+  playervaults.admin.view:
+    description: View other players' vaults
+    default: op
+  playervaults.admin.edit:
+    description: Edit other players' vaults
+    default: op

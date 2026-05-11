@@ -1,0 +1,12 @@
+com/frostgleeok/vaulted/VaultManager.class
+com/frostgleeok/vaulted/PlayerListener.class
+com/frostgleeok/vaulted/DatabaseManager.class
+com/frostgleeok/vaulted/PVCommand.class
+com/frostgleeok/vaulted/Vaulted.class
+com/frostgleeok/vaulted/ViewVaultCommand.class
+com/frostgleeok/vaulted/VaultHolder.class
+com/frostgleeok/vaulted/SessionManager.class
+com/frostgleeok/vaulted/InventoryListener.class
+com/frostgleeok/vaulted/MenuHolder.class
+com/frostgleeok/vaulted/SessionManager$VaultSession.class
+com/frostgleeok/vaulted/SessionManager$1.class
