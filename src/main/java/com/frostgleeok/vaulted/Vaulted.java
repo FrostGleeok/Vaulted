@@ -10,7 +10,7 @@ public class Vaulted extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        saveDefaultConfig();
+        // No config file required for this plugin.
 
         // Initialize managers
         databaseManager = new DatabaseManager(this);
