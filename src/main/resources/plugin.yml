@@ -1,9 +1,9 @@
 name: Vaulted
 version: 1.0.0
 main: com.frostgleeok.vaulted.Vaulted
-api-version: 1.21
+api-version: 1.21.1
 authors: [FrostGleeok]
-description: A lightweight, secure PlayerVaults plugin for Paper
+description: A lightweight, secure PlayerVaults plugin for Paper 1.21.1
 website: https://github.com/FrostGleeok/Vaulted
 
 commands:
